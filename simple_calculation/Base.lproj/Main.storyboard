@@ -46,13 +46,19 @@
                                 <rect key="frame" x="94" y="476" width="94" height="95.5"/>
                                 <state key="normal" title="2"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eip-ee-1SU">
+                                <rect key="frame" x="282" y="476" width="94" height="95.5"/>
+                                <state key="normal" title="+"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="AVz-we-O5c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3V2-KP-tf9"/>
                             <constraint firstItem="Y4X-DC-Iqs" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.142857" id="5zs-yC-iba"/>
                             <constraint firstItem="giZ-Ec-HPz" firstAttribute="leading" secondItem="Rzj-db-5at" secondAttribute="trailing" id="8yw-j1-ooh"/>
+                            <constraint firstItem="eip-ee-1SU" firstAttribute="leading" secondItem="vkw-nq-XhI" secondAttribute="trailing" id="BEb-1U-g0R"/>
                             <constraint firstAttribute="bottom" secondItem="Y4X-DC-Iqs" secondAttribute="bottom" id="D5n-Ru-Lf8"/>
+                            <constraint firstItem="eip-ee-1SU" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.25" id="D6w-0V-rbs"/>
                             <constraint firstItem="PSa-xx-qoQ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.25" id="GPQ-UN-hIw"/>
                             <constraint firstItem="Y4X-DC-Iqs" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="HAg-FJ-dlV"/>
                             <constraint firstItem="Rzj-db-5at" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.142857" id="HeH-rl-cXZ"/>
@@ -65,10 +71,12 @@
                             <constraint firstAttribute="bottom" secondItem="giZ-Ec-HPz" secondAttribute="bottom" id="Yph-mt-FM1"/>
                             <constraint firstItem="Rzj-db-5at" firstAttribute="top" secondItem="PSa-xx-qoQ" secondAttribute="bottom" id="Z4m-rO-1hb"/>
                             <constraint firstItem="Y4X-DC-Iqs" firstAttribute="top" secondItem="AVz-we-O5c" secondAttribute="bottom" id="bh2-bw-Jh1"/>
+                            <constraint firstItem="eip-ee-1SU" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.142857" id="bwR-I9-k4s"/>
                             <constraint firstItem="vkw-nq-XhI" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.142857" id="byb-6Y-hiI"/>
                             <constraint firstItem="AVz-we-O5c" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.25" id="c8e-Ft-dJ5"/>
                             <constraint firstItem="PSa-xx-qoQ" firstAttribute="leading" secondItem="AVz-we-O5c" secondAttribute="trailing" id="dWL-DH-qJt"/>
                             <constraint firstItem="giZ-Ec-HPz" firstAttribute="top" secondItem="vkw-nq-XhI" secondAttribute="bottom" id="e5X-U4-lB6"/>
+                            <constraint firstItem="giZ-Ec-HPz" firstAttribute="top" secondItem="eip-ee-1SU" secondAttribute="bottom" id="nL4-bz-aet"/>
                             <constraint firstItem="vkw-nq-XhI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.25" id="ue9-sz-veC"/>
                             <constraint firstItem="PSa-xx-qoQ" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.142857" id="x3u-GW-TdB"/>
                             <constraint firstItem="giZ-Ec-HPz" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.142857" id="ySu-46-kDF"/>

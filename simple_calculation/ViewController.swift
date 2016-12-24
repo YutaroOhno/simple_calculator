@@ -20,8 +20,14 @@ class ViewController: UIViewController {
 
     
     @IBAction func numberTapped(_ sender: UIButton) {
-        answer.text! += sender.currentTitle!
-        
+        if answer.text == "0" && sender.currentTitle == "0" {
+        }else{
+            if answer.text == "0" {
+                answer.text! = sender.currentTitle!
+            }else{
+                    answer.text! += sender.currentTitle!
+            }
+        }
     }
 
     

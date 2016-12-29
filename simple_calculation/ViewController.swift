@@ -30,6 +30,9 @@ class ViewController: UIViewController {
         }
     }
 
+    @IBAction func tapClearButton(_ sender: UIButton) {
+        answer.text = "0"
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -89,6 +89,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auN-cv-m68">
                                 <rect key="frame" x="282" y="380" width="94" height="95"/>
                                 <state key="normal" title="-"/>
+                                <connections>
+                                    <action selector="tapMinusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mhe-bQ-67v"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9F1-Ax-sDz">
                                 <rect key="frame" x="0.0" y="285" width="94" height="96"/>
@@ -114,6 +117,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BPb-AQ-d8V">
                                 <rect key="frame" x="282" y="285" width="94" height="95"/>
                                 <state key="normal" title="×"/>
+                                <connections>
+                                    <action selector="tapTimesButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KL3-R4-NSr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vzx-zm-ZeW">
                                 <rect key="frame" x="0.0" y="190" width="94" height="95"/>
@@ -131,7 +137,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11l-tf-qGc">
                                 <rect key="frame" x="188" y="189" width="94" height="96"/>
-                                <state key="normal" title="%"/>
+                                <state key="normal" title="÷"/>
                                 <connections>
                                     <action selector="tapDevidedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M3r-Mt-1vZ"/>
                                 </connections>

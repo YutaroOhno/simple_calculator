@@ -11,10 +11,10 @@ import UIKit
 class ViewController: UIViewController {
 
 
-    var tasu = ""
-    var hiku =  ""
-    var waru = ""
-    var kakeru = ""
+    var tasu:String? = nil
+    var hiku:String? =  nil
+    var waru:String? = nil
+    var kakeru:String? = nil
     
     
     @IBOutlet weak var answer: UILabel!
@@ -51,27 +51,30 @@ class ViewController: UIViewController {
         answer.text = ""
         
     }
+    @IBAction func tapTimesButton(_ sender: UIButton) {
+        kakeru = answer.text!
+        answer.text = ""
+    }
+    @IBAction func tapMinusButton(_ sender: UIButton) {
+        hiku = answer.text!
+        answer.text = ""
+    }
+    
     @IBAction func tapEqualButton(_ sender: UIButton) {
 
-        
         if tasu != nil {
-            answer.text = String(Int(answer.text!)! + Int(tasu)!)
-            tasu = ""
-        }else if hiku != nil{
-        
-        }else if waru != nil{
-        
-        }else if kakeru != nil{
-        
+            answer.text = String(Int(answer.text!)! + Int(tasu!)!)
+            tasu = nil
+        }else if hiku != nil {
+            answer.text = String(Int(hiku!)! - Int(answer.text!)!)
+            hiku = nil
+        }else if waru != nil {
+            answer.text = String(Int(waru!)! / Int(answer.text!)!)
+            waru = nil
+        }else if kakeru != nil {
+            answer.text = String(Int(kakeru!)! * Int(answer.text!)!)
+            kakeru = nil
         }
-//        if (answer.text!).contains("/") {
-//
-//        }else if (answer.text!).contains("*"){
-//        
-//        }else if(answer.text!).contains("+"){
-//            answer.text = answer.text! + tasu
-//        
-//        }
     }
 
     override func didReceiveMemoryWarning() {

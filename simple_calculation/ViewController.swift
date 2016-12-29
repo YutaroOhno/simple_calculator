@@ -33,6 +33,9 @@ class ViewController: UIViewController {
     @IBAction func tapClearButton(_ sender: UIButton) {
         answer.text = "0"
     }
+    @IBAction func addMinusSymbol(_ sender: UIButton) {
+            answer.text =  String(-1 * Int(answer.text!)!)
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

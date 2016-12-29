@@ -122,6 +122,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPp-0o-F5v">
                                 <rect key="frame" x="94" y="190" width="94" height="96"/>
                                 <state key="normal" title="+/-"/>
+                                <connections>
+                                    <action selector="addMinusSymbol:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8mk-BF-xbU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11l-tf-qGc">
                                 <rect key="frame" x="188" y="189" width="94" height="96"/>

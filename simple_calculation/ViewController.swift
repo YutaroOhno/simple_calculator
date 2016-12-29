@@ -11,6 +11,12 @@ import UIKit
 class ViewController: UIViewController {
 
 
+    var tasu = ""
+    var hiku =  ""
+    var waru = ""
+    var kakeru = ""
+    
+    
     @IBOutlet weak var answer: UILabel!
     
     override func viewDidLoad() {
@@ -37,10 +43,35 @@ class ViewController: UIViewController {
             answer.text =  String(-1 * Int(answer.text!)!)
     }
     @IBAction func tapDevidedButton(_ sender: UIButton) {
-        answer.text = answer.text! + "/"
+        waru = answer.text!
+        answer.text = ""
     }
     @IBAction func tapPlusButton(_ sender: UIButton) {
-        answer.text =  answer.text! + "+"
+        tasu = answer.text!
+        answer.text = ""
+        
+    }
+    @IBAction func tapEqualButton(_ sender: UIButton) {
+
+        
+        if tasu != nil {
+            answer.text = String(Int(answer.text!)! + Int(tasu)!)
+            tasu = ""
+        }else if hiku != nil{
+        
+        }else if waru != nil{
+        
+        }else if kakeru != nil{
+        
+        }
+//        if (answer.text!).contains("/") {
+//
+//        }else if (answer.text!).contains("*"){
+//        
+//        }else if(answer.text!).contains("+"){
+//            answer.text = answer.text! + tasu
+//        
+//        }
     }
 
     override func didReceiveMemoryWarning() {

@@ -36,6 +36,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="giZ-Ec-HPz">
                                 <rect key="frame" x="282" y="571" width="94" height="96"/>
                                 <state key="normal" title="="/>
+                                <connections>
+                                    <action selector="tapEqualButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8DF-xt-6xa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVz-we-O5c">
                                 <rect key="frame" x="0.0" y="476" width="94" height="96"/>
@@ -60,7 +63,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eip-ee-1SU">
                                 <rect key="frame" x="282" y="475" width="94" height="96"/>
-                                <state key="normal" title="+"/>
+                                <state key="normal" title="÷"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUz-pU-UmE">
                                 <rect key="frame" x="0.0" y="381" width="94" height="95"/>
@@ -135,7 +138,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCi-Dv-JCJ">
                                 <rect key="frame" x="282" y="189" width="94" height="96"/>
-                                <state key="normal" title="÷"/>
+                                <state key="normal" title="+"/>
                                 <connections>
                                     <action selector="tapPlusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8qH-Wp-ib6"/>
                                 </connections>

@@ -129,6 +129,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11l-tf-qGc">
                                 <rect key="frame" x="188" y="189" width="94" height="96"/>
                                 <state key="normal" title="%"/>
+                                <connections>
+                                    <action selector="tapDevidedButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M3r-Mt-1vZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCi-Dv-JCJ">
                                 <rect key="frame" x="282" y="189" width="94" height="96"/>

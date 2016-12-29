@@ -36,7 +36,10 @@ class ViewController: UIViewController {
     @IBAction func addMinusSymbol(_ sender: UIButton) {
             answer.text =  String(-1 * Int(answer.text!)!)
     }
-    
+    @IBAction func tapDevidedButton(_ sender: UIButton) {
+        answer.text = String(Int(answer.text!)! / 2)
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
